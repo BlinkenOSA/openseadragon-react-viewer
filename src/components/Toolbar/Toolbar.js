@@ -113,7 +113,7 @@ const Toolbar = ({
         </>
       )}
 
-      {!isMobile && toolBarOptions?.showFullScreen && (
+      {toolBarOptions?.showFullScreen && (
         <button
           id={`full-page-${containerId}`}
           data-testid="full-page"
